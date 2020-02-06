@@ -1,0 +1,35 @@
+Assignment for Devops Engineer
+
+E todo-CI.nd
+
+Continuous Integration | TODO Application
+
+Problem Description
+
+Setup Cl for a project hosted on this repo. The above repository contains a basic Node based TODO Application
+
+Expectations
+
+The setup should be a Jenkins master slave setup where slave should have below jobs (jobs can be generated with Job DSL
+and having a complete pipeline structure)
+
+• Code stability job
+• Code quality job using sonar
+• Code coverage job
+• Deployment job which will deploy the app on a docker
+
+The required configuration of the instance on which deployment would be done should be managed by a SCM tool Chet
+Puppet Ansible) of your choice.
+
+All the tasks should be done on docker and with High availability on Application and database layer,
+
+Evaluation Criteria
+
+* Completion of tasks
+* Amount of automation done
+* Scalability of solution
+
+Submission Guidelines
+
+Share a zip or tar or github link where your code exists. We would need an elaborate README file on how to use the code
+and deploy the setup.
